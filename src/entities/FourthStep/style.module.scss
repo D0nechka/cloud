@@ -1,0 +1,40 @@
+.actionContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 64px;
+}
+
+.textAreaContainer {
+    margin-top: 66px;
+}
+
+.counter {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.containerCounter {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 900px) {
+    .textAreaContainer {
+        width: 280px;
+
+        textarea {
+            min-width: 280px;
+            max-width: 280px;
+            height: 400px;
+        }
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .textAreaContainer {
+        width: 300px;
+    }
+}

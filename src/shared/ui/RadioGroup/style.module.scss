@@ -1,0 +1,61 @@
+.container {
+    margin-top: 24px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.error {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--color-error);
+}
+
+.label {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--color-text);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 25px;
+}
+
+
+.mainLabel {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--color-text);
+    margin-bottom: 5px;
+}
+
+.radioContainer {
+    height: 16px;
+    width: 16px;
+    position: relative;
+}
+
+.radio {
+    height: 16px;
+    width: 16px;
+    opacity: 0;
+}
+
+.radio:checked {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.divRadio {
+    position: absolute;
+    z-index: 5;
+    cursor: pointer;
+    border: 1.5px solid var(--color-border-input);
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+}

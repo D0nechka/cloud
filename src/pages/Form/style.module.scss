@@ -1,0 +1,37 @@
+.formPage {
+    background: var(--bg-page);
+    min-height: 100vh;
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    background: var(--white);
+    width: 900px;
+    height: fit-content;
+    border-radius: 24px;
+    padding: 62px 110px 80px 110px;
+}
+
+@media screen and (max-width: 900px) {
+    .content {
+        width: 500px;
+    }
+
+    .formPage {
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .content {
+        width: 350px;
+        padding: 30px;
+    }
+
+    .formPage {
+        overflow: hidden;
+    }
+}

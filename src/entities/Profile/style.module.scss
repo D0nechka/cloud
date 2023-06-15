@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    height: 80px;
+    width: 80px;
+    background: var(--color-bg-profile);
+    display: flex;
+    border-radius: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.inicials {
+    color: var(--color-dark-blue);
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+
+    max-width: 52px;
+}
+
+.info {
+    margin-left: 24px;
+}
+
+.links {
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.itemLink {
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+}
+
+.linkTo {
+    margin-left: 4px;
+    color: var(--color-link);
+}
+
+@media screen and (max-width: 550px) {
+    .links {
+        display: block;
+    }
+}

@@ -1,0 +1,43 @@
+.error {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--color-error);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+.el {
+    height: 25px;
+}
+
+.checkbox {
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 0px 1.5px var(--color-border-input);
+    -moz-box-shadow: 0px 0px 0px 1.5px var(--color-border-input);
+    box-shadow: 0px 0px 0px 1.5px var(--color-border-input);
+    border-radius: 4px;
+    width: 16px;
+    height: 16px;
+}
+
+.label {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--color-text)
+}
+
+.mainLabel {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--color-text);
+    margin-bottom: 5px;
+}

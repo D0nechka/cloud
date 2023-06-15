@@ -1,0 +1,39 @@
+.mainPage {
+    background: var(--bg-page);
+    min-height: 100vh;
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    background: var(--white);
+    width: 900px;
+    height: 704px;
+    border-radius: 12px 12px 0px 0px;
+    padding: 24px;
+}
+
+.separator {
+    background: var(--color-separtor);
+    width: 100%;
+    height: 1px;
+    margin-top: 24px;
+}
+
+@media screen and (max-width: 900px) {
+    .content {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .content {
+        width: 300px;
+    }
+
+    .mainPage {
+        overflow: hidden;
+    }
+}

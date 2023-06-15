@@ -1,0 +1,13 @@
+.inputContainer {
+    margin-top: 24px;
+}
+
+.btnStart {
+    margin-top: 48px;
+}
+
+@media screen and (max-width: 550px) {
+    .input {
+        width: 250px;
+    }
+}

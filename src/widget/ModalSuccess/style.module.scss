@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.iconContainer {
+    height: 132px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+@media screen and (max-width: 550px) {
+    .container {
+        min-width: 300px;
+    }
+}
